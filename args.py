@@ -5,7 +5,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 file_path = os.path.dirname(__file__)
 
-model_dir = os.path.join(file_path, 'chinese_L-12_H-768_A-12/')
+model_dir = os.path.join(file_path, 'chinese_roberta_wwm_ext_L-12_H-768_A-12/')
 config_name = os.path.join(model_dir, 'bert_config.json')
 ckpt_name = os.path.join(model_dir, 'bert_model.ckpt')
 output_dir = os.path.join(model_dir, '../tmp/result/')
