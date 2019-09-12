@@ -12,9 +12,10 @@
 
 ---
 
-1、下载BERT中文模型 
+1、下载BERT中文模型 、RoBERTa中文模型From哈工大
 
 下载地址: https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
+下载地址: https://drive.google.com/file/d/1jMAKIJmPn7kADgD3yQZhpsqM-IRM1qZt/view
 
 2、把下载好的模型添加到当前目录下
 
@@ -24,7 +25,7 @@
 
 首次生成句向量时需要加载graph，并在output_dir路径下生成一个新的graph文件，因此速度比较慢，再次调用速度会很快
 ```
-from bert.extrac_feature import BertVector
+from bert.extract_feature import BertVector
 bv = BertVector()
 bv.encode(['今天天气不错'])
 ```
