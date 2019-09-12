@@ -15,6 +15,7 @@
 1、下载BERT中文模型 、RoBERTa中文模型From哈工大
 
 下载地址: https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
+
 下载地址: https://drive.google.com/file/d/1jMAKIJmPn7kADgD3yQZhpsqM-IRM1qZt/view
 
 2、把下载好的模型添加到当前目录下
